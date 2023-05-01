@@ -1,0 +1,247 @@
+body {
+    background-color: #444444;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+section {
+    min-height: calc( 100vh - 395px );
+}
+
+p {
+    color: #ffffff;
+    text-shadow: 0px 1px 3px #000000;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+hr {
+    border: 2px solid #33dd00;
+    box-shadow: 0px 1px 3px #000000;
+    margin: 8px 0px 8px 0px;
+}
+
+li {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 3px #000000;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 0px 2px 3px #000000;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0px 0px 10px;
+}
+
+h2 {
+    margin: 50px 0px 0px 10px;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0px 2px 3px #000000;
+}
+
+h3 {
+    margin: 20px 0px 0px 10px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 0px 1px 2px #000000;
+    font-style: italic;
+}
+
+a {
+    color: #bbffbb;
+}
+
+a:hover {
+    color: #00ff00;
+}
+
+.asection {
+    color: #bbffbb;
+    margin-left: 10px;
+}
+
+.asection:hover {
+    color: 00ff00;
+}
+
+/* ================ Images ================================================= */
+
+.bandimage {
+    width: 100%;
+}
+
+.singleimagetable {
+    width: 100%;
+}
+
+.singleimagetableimagecell {
+    text-align: center;
+}
+
+.singleimagetableimage50 {
+    max-width: 50%;
+}
+
+.singleimagetableimage80 {
+    max-width: 80%;
+}
+
+.singleimagetablecaption50, .singleimagetablecaption80 {
+    font-size: 0.9rem;
+    color: #dddddd;
+    font-style: italic;
+}
+
+.singleimagetablecaption50 {
+    padding: 0px 25% 0px 25%;
+}
+
+.singleimagetablecaption80 {
+    padding: 0px 10% 0px 10%;
+}
+
+/* ================ Footer ================================================= */
+
+footer {
+    background-color: #000000;
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    position: relative;
+    bottom: 0px;
+}
+
+.footerlink {
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.footerlink:visited {
+    color: #bbffbb;
+}
+
+.footerlink:hover {
+    color: #00ff00;
+}
+
+.footerlinklist {
+    list-style-type: none;
+    list-style-position: outside;
+    padding-inline-start: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.footerleft {
+    float: left;
+}
+
+.footersectiontitle {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin: 0px 0px 10px 0px;
+    text-decoration: underline;
+}
+
+/* ================ Double section ========================================= */
+
+.doublecontainer20margin {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.doubleleft, .doubleright {
+    width: 40%;
+}
+
+.doubleleft {
+    float: left;
+}
+
+.doubleright {
+    float: right;
+}
+
+/* ================ Table of Contents ====================================== */
+
+.contentslist {
+    margin: 0px 0px 0px 0px;
+    padding-right: 20px;
+}
+
+.contentslink {
+    color: #ffffff;
+    margin: 0px 0px 20px 0px;
+}
+
+.contentslink:hover {
+    color: #00ff00;
+}
+
+.contentstable {
+    border: 2px solid #999999;
+}
+
+.contentstitle, .contentsrow {
+    color: #ffffff;
+    padding: 15px 15px 15px 15px;
+}
+
+.contentsrow {
+    background-color: #000000;
+}
+
+.contentstitle {
+    background-color: #33dd00;
+    text-align: center;
+    text-shadow: -1px 0px 2px #000000, 0px 2px 1px #000000, 2px 0px 1px #000000, 0px -2px 1px #000000;
+    font-weight: bold;
+}
+
+/* ================ Main Content =========================================== */
+
+.maincontainer {
+    padding: 0px 22% 50px 22%;
+}
+
+/* ================ Menu Bar Styles ======================================== */
+
+.menubar {
+    background-color: #33dd00;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    box-shadow: 0px 3px 5px #000000;
+}
+
+.menuitem {
+    display: inline-block;
+    padding: 15px 3% 15px 3%;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+    transition: 0.4s;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-shadow: -2px 0px 2px #000000, 0px 2px 2px #000000, 2px 0px 2px #000000, 0px -2px 2px #000000;
+}
+
+.menuitem:hover {
+    background-color: #ffffff;
+    text-shadow: -1px 0px #ffffff, 0px 1px #ffffff, 1px 0px #ffffff, 0px -1px #ffffff;
+    color: #000000;
+}
